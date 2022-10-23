@@ -1,0 +1,15 @@
+:root {
+    --marketing-bg: #161F49;
+    --main-bg: #FFFFFF;
+    --main-text-color: #404040;
+    --accent-color: #2468FF;
+    --true-mesh-color: #161F49;
+    --light-color-text: #FFFFFF;
+    --secondary-bg: #F7F7F7;
+    --footer-text-color: #989898;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
