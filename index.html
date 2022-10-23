@@ -1,133 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team Project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div>
-            <a href="#">Free 2-day shipping | 30-day money back guarantee</a>
+      <div class="container">
+        <div class="marketing">
+          <a href="#">Free 2-day shipping | 30-day money back guarantee</a>
         </div>
-        <div>
-            <nav>
-                <a href="#">Aero</a>
-                <ul class="menu">
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Technology</a></li>
-                    <li><a href="#secure">eero Secure</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Find your system</a></li>
-                </ul>
-            </nav>
-            <button type="button">Shop</button>
+        <div class="header-nav">
+          <nav class="header-nav">
+            <a href="#">Aero</a>
+            <ul class="menu">
+              <li><a href="#">Products</a></li>
+              <li><a href="#">How it works</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#secure">eero Secure</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Find your system</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="header-button">Shop</button>
         </div>
+      </div>
     </header>
     <main>
-        <section class="hero">
-            <h1>Wi-Fi 6 is here.</h1>
-            <p>The future of home wifi is fast.</p>
-            <button type="button">SHOP WIFI SOLUTIONS</button>
-        </section>
-        <section>
-            <div class="container">
-                <div>
-                    <p>Explore eero systems on</p>
-                    <img src="./images/amazon.svg" alt="amazon" width="108" height="33">
-                    <a href="">Shop now</a>
-                </div>
-                <div>
-                    <h2>More wifi for the devices in your connected home.</h2>
-                    <p>eero 6 systems use the power of Wi-Fi 6 to deliver faster speeds, increase your internet’s efficiency, and reduce network congestion. Say goodbye to dead spots and buffering with a connection that doesn’t slow you down, even as you add more devices.</p>
-                    <button type="button">Find your eero system</button>
-                </div>
-                <img src="images/rectangle.jpg" alt="" width="928" height="747">
-            </div>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <p>Wi-Fi 6</p>
-                    <h2>eero Pro 6</h2>
-                    <p>The fastest eero yet.</p>
-                    <p>Tri-band Wi-Fi 6 system designed for homes with gigabit internet connections.</p>
-                    <p>Starting at <strong>$229</strong></p>
-                    <button type="button">Shop now</button>
-                </li>
-                <li>
-                    <p>Wi-Fi 6</p>
-                    <h2>eero 6</h2>
-                    <p>Experience Wi-Fi 6—the new standard for home wifi.</p>
-                    <p>Dual-band Wi-Fi 6 system designed for homes with 500 Mbps internet connections.</p>
-                    <p>Starting at <strong>$129</strong></p>
-                    <button type="button">Shop now</button>
-                </li>
-            </ul>
-            <button type="button">Compare All Models</button>
-        </section>
-        <section>
-            <figure>
-                <blockquote cite="https://www.huxley.net/bnw/four.html">
-                    <p>"eero combats frustrating Wi-Fi dead zones with an armada of little wireless routers."</p>
-                </blockquote>
-                <figcaption> The Wall Street Journal</figcaption>
-            </figure>
-        </section>
-        <section id="secure">
-            <h2>Unlock your wifi’s potential.</h2>
-            <p>Both eero 6 and eero Pro 6 feature a built-in Zigbee smart home hub, making it easy to connect compatible devices with
-            Alexa. So you can control certain lights, locks, plugs, and more—without the need to buy separate smart home hubs for
-            each.</p>
-            <button type="button">Learn More</button>
-        </section>
-        <section>
-            <h2>Give your home the connectivity it deserves.</h2>
-            <p>Say goodbye to dead spots, drop-offs, and buffering—even when the whole family is online. With eero, a simple and
-            reliable connection is a given. Get a consistently strong signal for streaming, gaming, and working from every part of
-            your home.</p>
-    <img src="./images/work-man.jpg" alt="work man" width="1008">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Wi-Fi 6 is here.</h1>
+          <p class="hero-text">The future of home wifi is fast.</p>
+          <button type="button" class="hero-button">SHOP WIFI SOLUTIONS</button>
+        </div>
+      </section>
+      <section>
+        <div class="container shop">
+          <div class="">
+            <p class="shop-text">Explore eero systems on</p>
+            <img
+              src="./images/amazon.svg"
+              alt="amazon"
+              width="108"
+              height="33"
+              class="img"
+            />
+            <a href="" class="buy">Shop now</a>
+          </div>
+          <div>
+            <h2 class="section-title">
+              More wifi for the devices in your <br />
+              connected home.
+            </h2>
+            <p class="section-text">
+              eero 6 systems use the power of Wi-Fi 6 to deliver faster speeds,
+              increase your internet’s efficiency, and reduce network
+              congestion. Say goodbye to dead spots and buffering with a
+              connection that doesn’t slow you down, even as you add more
+              devices.
+            </p>
+            <button type="button" class="section-button">Find your eero system</button>
+          </div>
+          <img src="images/rectangle.jpg" alt="" width="928" height="747" class="img" />
+        </div>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <p>Wi-Fi 6</p>
+            <h2>eero Pro 6</h2>
+            <p>The fastest eero yet.</p>
+            <p>
+              Tri-band Wi-Fi 6 system designed for homes with gigabit internet
+              connections.
+            </p>
+            <p>Starting at <strong>$229</strong></p>
+            <button type="button">Shop now</button>
+          </li>
+          <li>
+            <p>Wi-Fi 6</p>
+            <h2>eero 6</h2>
+            <p>Experience Wi-Fi 6—the new standard for home wifi.</p>
+            <p>
+              Dual-band Wi-Fi 6 system designed for homes with 500 Mbps internet
+              connections.
+            </p>
+            <p>Starting at <strong>$129</strong></p>
+            <button type="button">Shop now</button>
+          </li>
+        </ul>
+        <button type="button">Compare All Models</button>
+      </section>
+      <section>
+        <figure>
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+            <p>
+              "eero combats frustrating Wi-Fi dead zones with an armada of
+              little wireless routers."
+            </p>
+          </blockquote>
+          <figcaption>The Wall Street Journal</figcaption>
+        </figure>
+      </section>
+      <section id="secure">
+        <h2>Unlock your wifi’s potential.</h2>
+        <p>
+          Both eero 6 and eero Pro 6 feature a built-in Zigbee smart home hub,
+          making it easy to connect compatible devices with Alexa. So you can
+          control certain lights, locks, plugs, and more—without the need to buy
+          separate smart home hubs for each.
+        </p>
+        <button type="button">Learn More</button>
+      </section>
+      <section>
+        <h2>Give your home the connectivity it deserves.</h2>
+        <p>
+          Say goodbye to dead spots, drop-offs, and buffering—even when the
+          whole family is online. With eero, a simple and reliable connection is
+          a given. Get a consistently strong signal for streaming, gaming, and
+          working from every part of your home.
+        </p>
+        <img src="./images/work-man.jpg" alt="work man" width="1008" />
+      </section>
 
-        </section>
+      <section>
+        <h2>TrueMesh covers your whole home.</h2>
+        <p>
+          TrueMesh learns the layout of your home to intelligently route traffic
+          and optimize your wifi. eero 6 and eero Pro 6 are the first Wi-Fi 6
+          routers with eero’s TrueMesh technology.
+        </p>
+        <button type="button">See how it works</button>
+        <img src="./images/home.png" alt="home" width="666" />
+      </section>
 
-        <section>
-            <h2>TrueMesh covers your whole home.</h2>
-            <p>TrueMesh learns the layout of your home to intelligently route traffic and optimize your wifi. eero 6 and eero Pro 6 are
-            the first Wi-Fi 6 routers with eero’s TrueMesh technology.</p>
-            <button type="button"> See how it works</button>
-            <img src="./images/home.png" alt="home" width="666">
-
-        </section>
-
-        <section>
-            <h2>Never worry about wifi again.</h2>
-            <ul>
-                <li>
-                    <h3>Fast and easy setup</h3>
-                    <p>Unbox your eero devices, download the app, and start surfing the web in minutes. The eero app makes it easy to set up and manage wifi for everyone at home.</p>
-                    <button type="button">CHECK OUT THE APP</button>
-                </li>
-                <li>
-                    <h3>Fast and easy setup</h3>
-                    <p>Unbox your eero devices, download the app, and start surfing the web in minutes. The eero app makes it easy to set up and manage wifi for everyone at home.</p>
-                    <button type="button">CHECK OUT THE APP</button>
-                </li>
-                <li>
-                    <h3>Fast and easy setup</h3>
-                    <p>Unbox your eero devices, download the app, and start surfing the web in minutes. The eero app makes it easy to set up and manage wifi for everyone at home.</p>
-                    <button type="button">CHECK OUT THE APP</button>
-                </li>
-            </ul>
-        </section>
-
+      <section>
+        <h2>Never worry about wifi again.</h2>
+        <ul>
+          <li>
+            <h3>Fast and easy setup</h3>
+            <p>
+              Unbox your eero devices, download the app, and start surfing the
+              web in minutes. The eero app makes it easy to set up and manage
+              wifi for everyone at home.
+            </p>
+            <button type="button">CHECK OUT THE APP</button>
+          </li>
+          <li>
+            <h3>Fast and easy setup</h3>
+            <p>
+              Unbox your eero devices, download the app, and start surfing the
+              web in minutes. The eero app makes it easy to set up and manage
+              wifi for everyone at home.
+            </p>
+            <button type="button">CHECK OUT THE APP</button>
+          </li>
+          <li>
+            <h3>Fast and easy setup</h3>
+            <p>
+              Unbox your eero devices, download the app, and start surfing the
+              web in minutes. The eero app makes it easy to set up and manage
+              wifi for everyone at home.
+            </p>
+            <button type="button">CHECK OUT THE APP</button>
+          </li>
+        </ul>
+      </section>
     </main>
-</body>
+  </body>
 </html>

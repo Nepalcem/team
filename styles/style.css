@@ -1,15 +1,125 @@
 :root {
-    --marketing-bg: #161F49;
-    --main-bg: #FFFFFF;
-    --main-text-color: #404040;
-    --accent-color: #2468FF;
-    --true-mesh-color: #161F49;
-    --light-color-text: #FFFFFF;
-    --secondary-bg: #F7F7F7;
-    --footer-text-color: #989898;
+  --marketing-bg: #161f49;
+  --main-bg: #ffffff;
+  --main-text-color: #404040;
+  --accent-color: #2468ff;
+  --true-mesh-color: #161f49;
+  --light-color-text: #ffffff;
+  --secondary-bg: #f7f7f7;
+  --footer-text-color: #989898;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-height: auto;
+  max-width: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-bg);
+  color: var(--main-text-color);
+}
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-nav {
+  display: flex;
+}
+.marketing {
+  background-color: var(--marketing-bg);
+  text-align: center;
+}
+.marketing a {
+  color: var(--light-color-text);
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 37px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav a {
+  color: var(--main-text-color);
+}
+.header-button {
+  color: var(--light-color-text);
+  background-color: var(--accent-color);
+  margin-left: auto;
 }
 
+.hero {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../images/family.jpg");
+  padding-top: 120px;
+  padding-bottom: 271px;
+  background-repeat: no-repeat;
+}
+.hero-title {
+  color: var(--light-color-text);
+  font-weight: 400;
+  font-size: 72px;
+  line-height: calc(80 / 72);
+}
+.hero-text {
+  color: var(--light-color-text);
+  font-size: 21px;
+  line-height: calc(29 / 21);
+}
+.hero-button {
+  padding: 16px 37px 21px;
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--light-color-text);
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
 
-body {
-    font-family: 'Roboto', sans-serif;
+.shop {
+  text-align: center;
+}
+.img {
+  margin: 0 auto;
+}
+.shop-text {
+  font-size: 18px;
+  line-height: calc(21 / 18);
+}
+
+.buy {
+  text-decoration: underline;
+  color: var(--main-text-color);
+  font-style: 14px;
+  line-height: calc(16 / 14);
+}
+
+.section-title {
+  font-size: 50px;
+  line-height: calc(60 / 50);
+}
+.section-text {
+  width: 736px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+}
+.section-button{
+    background-color: var(--accent-color);
+    color: var(--light-color-text);
+    width: 244px;
+    padding: 17px 37px 21px;
+    margin-top: 78px;
+    border: none;
 }
