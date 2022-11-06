@@ -8,7 +8,9 @@
   --secondary-bg: #f7f7f7;
   --footer-text-color: #989898;
 }
-
+* {
+  box-sizing: border-box;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -120,110 +122,133 @@ body {
   font-size: 18px;
   line-height: calc(25 / 18);
 }
-.section-button{
-    background-color: var(--accent-color);
-    color: var(--light-color-text);
-    width: 244px;
-    padding: 17px 37px 21px;
-    margin-top: 78px;
-    border: none;
+.section-button {
+  background-color: var(--accent-color);
+  color: var(--light-color-text);
+  width: 244px;
+  padding: 17px 37px 21px;
+  margin-top: 78px;
+  border: none;
 }
 
 .aeero {
-    background-image: url(../images/aeerobg.jpg);
-    padding-top: 580px;
-    padding-bottom: 80px;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(../images/aeerobg.jpg);
+  padding-top: 580px;
+  padding-bottom: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .aeero-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 240px;
-    margin-bottom: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 240px;
+  margin-bottom: 89px;
 }
 
 .aeero-item-pro {
-    width: 400px;
+  width: 400px;
 }
 
 .aeero-item-pro6 {
-    width: 542px;
+  width: 542px;
 }
 
 .wi-fi {
-    display: inline-block;
-    background: var(--main-bg  );
-    border-radius: 18px;
-    padding: 1px 13px 1px 14px; 
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.31;
-    text-transform: uppercase;
-    color: #000000;
-    margin-bottom: 17px;
+  display: inline-block;
+  background: var(--main-bg);
+  border-radius: 18px;
+  padding: 1px 13px 1px 14px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 17px;
 }
 
 .aeero-title {
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 1.22;
-    color: var(--light-color-text);
-    margin-bottom: 13px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.22;
+  color: var(--light-color-text);
+  margin-bottom: 13px;
 }
 
 .aeero-descr {
-font-size: 42px;
-line-height: 1.14;
-color: var(--light-color-text);
-margin-bottom: 20px;
+  font-size: 42px;
+  line-height: 1.14;
+  color: var(--light-color-text);
+  margin-bottom: 20px;
 }
 
 .aeero-description {
-    font-size: 18px;
-    line-height: 1.4;
-    color: var(--light-color-text);
-    margin-bottom: 33px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--light-color-text);
+  margin-bottom: 33px;
 }
 
 .aeero-price {
-    font-size: 18px;
-    line-height: 1.4;
-    color: var(--light-color-text);
-    margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--light-color-text);
+  margin-bottom: 36px;
 }
 
 .aeero-button {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1;
-    text-align: center;
-    letter-spacing: 0.11px;
-    text-transform: uppercase;
-    color: var(--light-color-text);
-    background-color: var(--accent-color);
-    padding: 19px 70px;
-    border: none;
-    cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color: var(--light-color-text);
+  background-color: var(--accent-color);
+  padding: 19px 70px;
+  border: none;
+  cursor: pointer;
 }
 
 .aeero-primary-button {
-    display: block;
-    margin: 0 auto;
-    background-color: transparent;
-    border: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.15;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--light-color-text);
-    border-bottom: 1px solid var(--light-color-text);
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--light-color-text);
+  border-bottom: 1px solid var(--light-color-text);
+  padding-bottom: 5px;
+  padding-left: 0;
+  padding-right: 0;
 }
-    
+/* quote */
+.container.quote {
+  padding: 205px 0;
+  background-color: var(--main-text-color);
+}
+.quote-description {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.14;
+  text-align: center;
+  color: var(--light-color-text);
+}
+.quote-title {
+  text-transform: uppercase;
+  font-family: serif;
+  color: var(--light-color-text);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.06em;
+  text-align: center;
+  margin-top: 50px;
+
+}
