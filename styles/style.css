@@ -8,9 +8,11 @@
   --secondary-bg: #f7f7f7;
   --footer-text-color: #989898;
 }
+
 * {
   box-sizing: border-box;
 }
+
 ul {
   list-style: none;
   padding: 0;
@@ -26,39 +28,48 @@ img {
   max-height: auto;
   max-width: 100%;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-bg);
   color: var(--main-text-color);
 }
+
 .container {
   width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
+
 .header-nav {
   display: flex;
 }
+
 .marketing {
   background-color: var(--marketing-bg);
   text-align: center;
 }
+
 .marketing a {
   color: var(--light-color-text);
 }
+
 .menu {
   display: flex;
   justify-content: center;
   gap: 37px;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
 }
+
 .header-nav a {
   color: var(--main-text-color);
 }
+
 .header-button {
   color: var(--light-color-text);
   background-color: var(--accent-color);
@@ -74,17 +85,20 @@ body {
   padding-bottom: 271px;
   background-repeat: no-repeat;
 }
+
 .hero-title {
   color: var(--light-color-text);
   font-weight: 400;
   font-size: 72px;
   line-height: calc(80 / 72);
 }
+
 .hero-text {
   color: var(--light-color-text);
   font-size: 21px;
   line-height: calc(29 / 21);
 }
+
 .hero-button {
   padding: 16px 37px 21px;
   font-family: inherit;
@@ -97,9 +111,11 @@ body {
 .shop {
   text-align: center;
 }
+
 .img {
   margin: 0 auto;
 }
+
 .shop-text {
   font-size: 18px;
   line-height: calc(21 / 18);
@@ -116,12 +132,14 @@ body {
   font-size: 50px;
   line-height: calc(60 / 50);
 }
+
 .section-text {
   width: 736px;
   margin: 0 auto;
   font-size: 18px;
   line-height: calc(25 / 18);
 }
+
 .section-button {
   background-color: var(--accent-color);
   color: var(--light-color-text);
@@ -228,11 +246,13 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+
 /* quote */
 .container.quote {
   padding: 205px 0;
   background-color: var(--main-text-color);
 }
+
 .quote-description {
   font-weight: 700;
   font-size: 42px;
@@ -240,15 +260,12 @@ body {
   text-align: center;
   color: var(--light-color-text);
 }
-.quote-title {
-  text-transform: uppercase;
-  font-family: serif;
-  color: var(--light-color-text);
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: -0.06em;
-  text-align: center;
-  margin-top: 50px;
 
+.quote-title img{
+    margin: 0 auto;
+}
+.quote-title {
+    fill: var(--light-color-text);
+    text-align: center;
+    margin-top: 50px;
 }
