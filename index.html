@@ -11,6 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
@@ -121,35 +131,83 @@
           <figure>
             <blockquote cite="https://www.huxley.net/bnw/four.html">
               <p class="quote-description">
-                "eero combats frustrating Wi-Fi dead zones <br/> with an armada of
-                little wireless routers."
+                "eero combats frustrating Wi-Fi dead zones <br />
+                with an armada of little wireless routers."
               </p>
             </blockquote>
             <figcaption class="quote-title">
-                <img src="./images/wall-street.svg" alt="image">
+              <img src="./images/wall-street.svg" alt="image" />
             </figcaption>
           </figure>
         </div>
       </section>
-      <section id="secure">
-        <h2>Unlock your wifi’s potential.</h2>
-        <p>
-          Both eero 6 and eero Pro 6 feature a built-in Zigbee smart home hub,
-          making it easy to connect compatible devices with Alexa. So you can
-          control certain lights, locks, plugs, and more—without the need to buy
-          separate smart home hubs for each.
-        </p>
-        <button type="button">Learn More</button>
+      <section class="section">
+        <div class="container secure">
+          <ul class="secure-icons">
+            <li>
+              <svg width="79" height="79">
+                <use href="./images/symbol-defs.svg#icon-lamp"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="79" height="79">
+                <use href="./images/symbol-defs.svg#icon-clock"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="79" height="79">
+                <use href="./images/symbol-defs.svg#icon-wifi"></use>
+              </svg>
+            </li>
+          </ul>
+          <div class="slider">
+            <div class="slide">
+              <h2 class="secure-title">Unlock your wifi’s potential.</h2>
+              <p class="secure-text">
+                Both eero 6 and eero Pro 6 feature a built-in Zigbee smart home
+                hub, making it easy to connect compatible devices with Alexa. So
+                you can control certain lights, locks, plugs, and more—without
+                the need to buy separate smart home hubs for each.
+              </p>
+            </div>
+            <div class="slide">
+              <h2 class="secure-title">Lorem ipsum dolor sit amet.</h2>
+              <p class="secure-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                ipsam, accusamus qui placeat repudiandae inventore id harum cum
+                consectetur amet veniam reiciendis aperiam, dolores cumque.
+              </p>
+            </div>
+            <div class="slide">
+              <h2 class="secure-title">Lorem ipsum dolor sit amet.</h2>
+              <p class="secure-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                numquam eligendi corporis perspiciatis maiores. Ipsa facilis
+                atque dignissimos ipsam culpa natus nostrum amet accusamus.
+              </p>
+            </div>
+          </div>
+          <button type="button" class="button">Learn More</button>
+        </div>
       </section>
-      <section>
-        <h2>Give your home the connectivity it deserves.</h2>
-        <p>
-          Say goodbye to dead spots, drop-offs, and buffering—even when the
-          whole family is online. With eero, a simple and reliable connection is
-          a given. Get a consistently strong signal for streaming, gaming, and
-          working from every part of your home.
-        </p>
-        <img src="./images/work-man.jpg" alt="work man" width="1008" />
+      <section class="connect">
+        <div class="container">
+            <h2 class="connect-title">
+              Give your home the connectivity it deserves.
+            </h2>
+            <p class="connect-text">
+              Say goodbye to dead spots, drop-offs, and buffering—even when the
+              whole family is online. With eero, a simple and reliable
+              connection is a given. Get a consistently strong signal for
+              streaming, gaming, and working from every part of your home.
+            </p>
+          <img
+            src="./images/work-man.jpg"
+            alt="work man"
+            width="1008"
+            class="img"
+          />
+        </div>
       </section>
 
       <section>
@@ -196,5 +254,26 @@
         </ul>
       </section>
     </main>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(".slider").slick({
+        dots: true,
+        infinite: true,
+        speed: 700,
+        slidesToShow: 1,
+      });
+    </script>
   </body>
 </html>

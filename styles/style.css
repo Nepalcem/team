@@ -9,10 +9,6 @@
   --footer-text-color: #989898;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -34,6 +30,14 @@ body {
   background-color: var(--main-bg);
   color: var(--main-text-color);
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
 
 .container {
   width: 1440px;
@@ -44,6 +48,21 @@ body {
 
 .header-nav {
   display: flex;
+}
+.button {
+  width: 220px;
+  height: 52px;
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--light-color-text);
+  border: none;
 }
 
 .marketing {
@@ -261,11 +280,65 @@ body {
   color: var(--light-color-text);
 }
 
-.quote-title img{
-    margin: 0 auto;
+.quote-title img {
+  margin: 0 auto;
 }
 .quote-title {
-    fill: var(--light-color-text);
-    text-align: center;
-    margin-top: 50px;
+  fill: var(--light-color-text);
+  text-align: center;
+  margin-top: 50px;
+}
+/* secure */
+.secure {
+  background-image: url("../images/door.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 168px;
+  padding-bottom: 149px;
+  text-align: center;
+}
+.secure-title {
+  margin-bottom: 44px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--light-color-text);
+}
+.secure-text {
+  margin: 0 auto;
+  margin-bottom: 118px;
+  width: 734px;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--light-color-text);
+}
+.secure-icons {
+  display: flex;
+  justify-content: center;
+  gap: 31px;
+  margin-bottom: 56px;
+}
+/* connect */
+.connect{
+  padding-top: 135px;
+  padding-bottom: 120px;
+}
+.connect-title {
+  margin: 0 auto;
+  margin-bottom: 44px;
+  text-align: center;
+  width: 782px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+}
+.connect-text {
+  margin: 0 auto;
+  margin-bottom: 78px;
+  text-align: center;
+  width: 707px;
+  font-size: 18px;
+  line-height: 1.4;
 }
