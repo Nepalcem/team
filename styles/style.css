@@ -290,6 +290,8 @@ p {
 }
 /* secure */
 .secure {
+  width: 1440px;
+  height: 800px;
   background-image: url("../images/door.jpg");
   background-repeat: no-repeat;
   background-position: center;
